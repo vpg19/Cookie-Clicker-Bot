@@ -36,7 +36,7 @@ sh
 python cookie_bot.py
 Watch the bot dominate Cookie Clicker! 🍪🔥
 
-##How It Works 🤖
+## How It Works 🤖
 Clicks the cookie as fast as possible.
 
 Checks for affordable upgrades every 5 seconds.
@@ -45,18 +45,18 @@ Purchases the best upgrade (highest ROI first).
 
 Runs for 5 minutes, then prints the final CPS.
 
-##Customization ⚡
+## Customization ⚡
 Change runtime: Modify five_min in the code (e.g., 60*10 for 10 minutes).
 
 Adjust strategy: Edit the upgrade priority logic in the buy_upgrades() section.
 
-##Troubleshooting 🛠️
+## Troubleshooting 🛠️
 Issue	Solution
 ChromeDriver not found	Ensure it’s in your PATH or update the webdriver.Chrome() path.
 ElementNotInteractable	The bot may try to click too fast. Increase delays if needed.
 Game updates break the bot	Check for HTML/CSS changes in the game and update selectors.
 
-##Contributing 🤝
+## Contributing 🤝
 Feel free to fork and improve! Some ideas:
 
 Add GUI controls (start/stop).
@@ -65,5 +65,5 @@ Optimize upgrade logic further.
 
 Add multiplayer bot support.
 
-##License 📄
+## License 📄
 MIT License - Free to use and modify.
