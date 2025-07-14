@@ -52,8 +52,11 @@ Adjust strategy: Edit the upgrade priority logic in the buy_upgrades() section.
 
 ## Troubleshooting 🛠️
 Issue	Solution
+
 ChromeDriver not found	Ensure it’s in your PATH or update the webdriver.Chrome() path.
+
 ElementNotInteractable	The bot may try to click too fast. Increase delays if needed.
+
 Game updates break the bot	Check for HTML/CSS changes in the game and update selectors.
 
 ## Contributing 🤝
